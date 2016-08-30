@@ -21,7 +21,7 @@
    
     SuperAlert * alertview=[[SuperAlert alloc]initWithTitle:@"superAlert" message:@"填写账号密码" textfiled:@[@"请输入账号",@"请输入密码"] clickButtonTitle:@[@"取消",@"确定"] buttonClick:^(NSInteger btIndex, NSMutableArray *strArr) {
       NSLog(@"%ld,%@",(long)btIndex,strArr);
-  } delegate:self];
+     } delegate:self];
   
     [alertview shown];
     
