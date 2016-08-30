@@ -22,10 +22,12 @@
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor blueColor];
     
-   view=[[SuperAlert alloc]initWithTitle:@"温馨提示" message:@"网络连接错误请重试" clickButtonTitle:@[@"确定",@"取消"] buttonClick:^(NSInteger btIndex) {
-       NSLog(@"%ld",(long)btIndex);
-
-   } delegate:self];
+    view=[[SuperAlert alloc]initWithTitle:@"温馨提示" message:nil textfiled:@[@"名字",@"电话"] clickButtonTitle:@[@"取消",@"确定"] buttonClick:^(NSInteger btIndex, NSMutableArray *strArr) {
+        NSLog(@"%ld,%@",(long)btIndex,strArr);
+        
+    } delegate:nil];
+    
+    
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
