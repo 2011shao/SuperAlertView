@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E3B9140ACE6ACDFA83C531F /* libPods-SuperAlertView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F491667C9F173A695920FA /* libPods-SuperAlertView.a */; };
+		732F0A391D755CEA00C45A30 /* 20150318212354_BxCh8.thumb.700_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 732F0A381D755CEA00C45A30 /* 20150318212354_BxCh8.thumb.700_0.jpg */; };
+		732F0A481D759BF500C45A30 /* SuperAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F0A451D759BF500C45A30 /* SuperAlert.m */; };
+		732F0A491D759BF500C45A30 /* SuperAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F0A471D759BF500C45A30 /* SuperAlertView.m */; };
+		737387E11D742E7300B62337 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 737387E01D742E7300B62337 /* main.m */; };
+		737387E41D742E7300B62337 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 737387E31D742E7300B62337 /* AppDelegate.m */; };
+		737387E71D742E7300B62337 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 737387E61D742E7300B62337 /* ViewController.m */; };
+		737387EA1D742E7300B62337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737387E81D742E7300B62337 /* Main.storyboard */; };
+		737387EC1D742E7300B62337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737387EB1D742E7300B62337 /* Assets.xcassets */; };
+		737387EF1D742E7300B62337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737387ED1D742E7300B62337 /* LaunchScreen.storyboard */; };
+		737387FA1D742E7300B62337 /* SuperAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 737387F91D742E7300B62337 /* SuperAlertViewTests.m */; };
+		737388051D742E7300B62337 /* SuperAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 737388041D742E7300B62337 /* SuperAlertViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		737387F61D742E7300B62337 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 737387D41D742E7300B62337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 737387DB1D742E7300B62337;
+			remoteInfo = SuperAlertView;
+		};
+		737388011D742E7300B62337 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 737387D41D742E7300B62337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 737387DB1D742E7300B62337;
+			remoteInfo = SuperAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C29C3C3AEF869D7F901A39E /* Pods-SuperAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperAlertView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperAlertView/Pods-SuperAlertView.debug.xcconfig"; sourceTree = "<group>"; };
+		1FDAE1B320700BEC0D43EFDB /* Pods-SuperAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperAlertView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperAlertView/Pods-SuperAlertView.release.xcconfig"; sourceTree = "<group>"; };
+		24F491667C9F173A695920FA /* libPods-SuperAlertView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SuperAlertView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		732F0A381D755CEA00C45A30 /* 20150318212354_BxCh8.thumb.700_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20150318212354_BxCh8.thumb.700_0.jpg; sourceTree = "<group>"; };
+		732F0A441D759BF500C45A30 /* SuperAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperAlert.h; sourceTree = "<group>"; };
+		732F0A451D759BF500C45A30 /* SuperAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperAlert.m; sourceTree = "<group>"; };
+		732F0A461D759BF500C45A30 /* SuperAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperAlertView.h; sourceTree = "<group>"; };
+		732F0A471D759BF500C45A30 /* SuperAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperAlertView.m; sourceTree = "<group>"; };
+		737387DC1D742E7300B62337 /* SuperAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		737387E01D742E7300B62337 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		737387E21D742E7300B62337 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		737387E31D742E7300B62337 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		737387E51D742E7300B62337 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		737387E61D742E7300B62337 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		737387E91D742E7300B62337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		737387EB1D742E7300B62337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		737387EE1D742E7300B62337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		737387F01D742E7300B62337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		737387F51D742E7300B62337 /* SuperAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		737387F91D742E7300B62337 /* SuperAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperAlertViewTests.m; sourceTree = "<group>"; };
+		737387FB1D742E7300B62337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		737388001D742E7300B62337 /* SuperAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		737388041D742E7300B62337 /* SuperAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperAlertViewUITests.m; sourceTree = "<group>"; };
+		737388061D742E7300B62337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		737387D91D742E7300B62337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3B9140ACE6ACDFA83C531F /* libPods-SuperAlertView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737387F21D742E7300B62337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737387FD1D742E7300B62337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B8340A17B43B942FE7BE872 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24F491667C9F173A695920FA /* libPods-SuperAlertView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		737387D31D742E7300B62337 = {
+			isa = PBXGroup;
+			children = (
+				737387DE1D742E7300B62337 /* SuperAlertView */,
+				737387F81D742E7300B62337 /* SuperAlertViewTests */,
+				737388031D742E7300B62337 /* SuperAlertViewUITests */,
+				8E5F20F8491CD4DF9A3BBD43 /* Pods */,
+				2B8340A17B43B942FE7BE872 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		737387DD1D742E7300B62337 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				737387DC1D742E7300B62337 /* SuperAlertView.app */,
+				737387F51D742E7300B62337 /* SuperAlertViewTests.xctest */,
+				737388001D742E7300B62337 /* SuperAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		737387DE1D742E7300B62337 /* SuperAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				737387E21D742E7300B62337 /* AppDelegate.h */,
+				737387E31D742E7300B62337 /* AppDelegate.m */,
+				737387E51D742E7300B62337 /* ViewController.h */,
+				737387E61D742E7300B62337 /* ViewController.m */,
+				732F0A441D759BF500C45A30 /* SuperAlert.h */,
+				732F0A451D759BF500C45A30 /* SuperAlert.m */,
+				732F0A461D759BF500C45A30 /* SuperAlertView.h */,
+				732F0A471D759BF500C45A30 /* SuperAlertView.m */,
+				732F0A381D755CEA00C45A30 /* 20150318212354_BxCh8.thumb.700_0.jpg */,
+				737387E81D742E7300B62337 /* Main.storyboard */,
+				737387EB1D742E7300B62337 /* Assets.xcassets */,
+				737387ED1D742E7300B62337 /* LaunchScreen.storyboard */,
+				737387F01D742E7300B62337 /* Info.plist */,
+				737387DF1D742E7300B62337 /* Supporting Files */,
+			);
+			path = SuperAlertView;
+			sourceTree = "<group>";
+		};
+		737387DF1D742E7300B62337 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				737387E01D742E7300B62337 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		737387F81D742E7300B62337 /* SuperAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				737387F91D742E7300B62337 /* SuperAlertViewTests.m */,
+				737387FB1D742E7300B62337 /* Info.plist */,
+			);
+			path = SuperAlertViewTests;
+			sourceTree = "<group>";
+		};
+		737388031D742E7300B62337 /* SuperAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				737388041D742E7300B62337 /* SuperAlertViewUITests.m */,
+				737388061D742E7300B62337 /* Info.plist */,
+			);
+			path = SuperAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		8E5F20F8491CD4DF9A3BBD43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				737387DD1D742E7300B62337 /* Products */,
+				0C29C3C3AEF869D7F901A39E /* Pods-SuperAlertView.debug.xcconfig */,
+				1FDAE1B320700BEC0D43EFDB /* Pods-SuperAlertView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		737387DB1D742E7300B62337 /* SuperAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 737388091D742E7300B62337 /* Build configuration list for PBXNativeTarget "SuperAlertView" */;
+			buildPhases = (
+				E021C6A1CC2F542D5E551C45 /* [CP] Check Pods Manifest.lock */,
+				737387D81D742E7300B62337 /* Sources */,
+				737387D91D742E7300B62337 /* Frameworks */,
+				737387DA1D742E7300B62337 /* Resources */,
+				C33BFE5506D9AAE84250802D /* [CP] Embed Pods Frameworks */,
+				8D3545AA46F5C7651C94DB05 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperAlertView;
+			productName = SuperAlertView;
+			productReference = 737387DC1D742E7300B62337 /* SuperAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		737387F41D742E7300B62337 /* SuperAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7373880C1D742E7300B62337 /* Build configuration list for PBXNativeTarget "SuperAlertViewTests" */;
+			buildPhases = (
+				737387F11D742E7300B62337 /* Sources */,
+				737387F21D742E7300B62337 /* Frameworks */,
+				737387F31D742E7300B62337 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				737387F71D742E7300B62337 /* PBXTargetDependency */,
+			);
+			name = SuperAlertViewTests;
+			productName = SuperAlertViewTests;
+			productReference = 737387F51D742E7300B62337 /* SuperAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		737387FF1D742E7300B62337 /* SuperAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7373880F1D742E7300B62337 /* Build configuration list for PBXNativeTarget "SuperAlertViewUITests" */;
+			buildPhases = (
+				737387FC1D742E7300B62337 /* Sources */,
+				737387FD1D742E7300B62337 /* Frameworks */,
+				737387FE1D742E7300B62337 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				737388021D742E7300B62337 /* PBXTargetDependency */,
+			);
+			name = SuperAlertViewUITests;
+			productName = SuperAlertViewUITests;
+			productReference = 737388001D742E7300B62337 /* SuperAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		737387D41D742E7300B62337 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "ios-shaoshuai";
+				TargetAttributes = {
+					737387DB1D742E7300B62337 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LZK5AY2BP2;
+					};
+					737387F41D742E7300B62337 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LZK5AY2BP2;
+						TestTargetID = 737387DB1D742E7300B62337;
+					};
+					737387FF1D742E7300B62337 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LZK5AY2BP2;
+						TestTargetID = 737387DB1D742E7300B62337;
+					};
+				};
+			};
+			buildConfigurationList = 737387D71D742E7300B62337 /* Build configuration list for PBXProject "SuperAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 737387D31D742E7300B62337;
+			productRefGroup = 737387DD1D742E7300B62337 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				737387DB1D742E7300B62337 /* SuperAlertView */,
+				737387F41D742E7300B62337 /* SuperAlertViewTests */,
+				737387FF1D742E7300B62337 /* SuperAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		737387DA1D742E7300B62337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737387EF1D742E7300B62337 /* LaunchScreen.storyboard in Resources */,
+				737387EC1D742E7300B62337 /* Assets.xcassets in Resources */,
+				732F0A391D755CEA00C45A30 /* 20150318212354_BxCh8.thumb.700_0.jpg in Resources */,
+				737387EA1D742E7300B62337 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737387F31D742E7300B62337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737387FE1D742E7300B62337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D3545AA46F5C7651C94DB05 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperAlertView/Pods-SuperAlertView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C33BFE5506D9AAE84250802D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperAlertView/Pods-SuperAlertView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E021C6A1CC2F542D5E551C45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		737387D81D742E7300B62337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732F0A491D759BF500C45A30 /* SuperAlertView.m in Sources */,
+				737387E71D742E7300B62337 /* ViewController.m in Sources */,
+				737387E41D742E7300B62337 /* AppDelegate.m in Sources */,
+				732F0A481D759BF500C45A30 /* SuperAlert.m in Sources */,
+				737387E11D742E7300B62337 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737387F11D742E7300B62337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737387FA1D742E7300B62337 /* SuperAlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737387FC1D742E7300B62337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737388051D742E7300B62337 /* SuperAlertViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		737387F71D742E7300B62337 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 737387DB1D742E7300B62337 /* SuperAlertView */;
+			targetProxy = 737387F61D742E7300B62337 /* PBXContainerItemProxy */;
+		};
+		737388021D742E7300B62337 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 737387DB1D742E7300B62337 /* SuperAlertView */;
+			targetProxy = 737388011D742E7300B62337 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		737387E81D742E7300B62337 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				737387E91D742E7300B62337 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		737387ED1D742E7300B62337 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				737387EE1D742E7300B62337 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		737388071D742E7300B62337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		737388081D742E7300B62337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7373880A1D742E7300B62337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C29C3C3AEF869D7F901A39E /* Pods-SuperAlertView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YZL365.COM.SuperAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7373880B1D742E7300B62337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FDAE1B320700BEC0D43EFDB /* Pods-SuperAlertView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YZL365.COM.SuperAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7373880D1D742E7300B62337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YZL365.COM.SuperAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperAlertView.app/SuperAlertView";
+			};
+			name = Debug;
+		};
+		7373880E1D742E7300B62337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YZL365.COM.SuperAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperAlertView.app/SuperAlertView";
+			};
+			name = Release;
+		};
+		737388101D742E7300B62337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YZL365.COM.SuperAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperAlertView;
+			};
+			name = Debug;
+		};
+		737388111D742E7300B62337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YZL365.COM.SuperAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperAlertView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		737387D71D742E7300B62337 /* Build configuration list for PBXProject "SuperAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737388071D742E7300B62337 /* Debug */,
+				737388081D742E7300B62337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		737388091D742E7300B62337 /* Build configuration list for PBXNativeTarget "SuperAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7373880A1D742E7300B62337 /* Debug */,
+				7373880B1D742E7300B62337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7373880C1D742E7300B62337 /* Build configuration list for PBXNativeTarget "SuperAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7373880D1D742E7300B62337 /* Debug */,
+				7373880E1D742E7300B62337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7373880F1D742E7300B62337 /* Build configuration list for PBXNativeTarget "SuperAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737388101D742E7300B62337 /* Debug */,
+				737388111D742E7300B62337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 737387D41D742E7300B62337 /* Project object */;
+}
