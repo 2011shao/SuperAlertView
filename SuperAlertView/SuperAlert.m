@@ -284,7 +284,6 @@
 -(CGRect)jianpandonghuaWithtongzhicanshu:(NSNotification*)tongzhi moveView:(UIView*)moveView
 //currSelf:(id)delegateSelf
 {
-    WS(weakSelf);
     NSValue * frameRect=tongzhi.userInfo[UIKeyboardFrameEndUserInfoKey];
     
     CGRect rectFrame=[frameRect CGRectValue];

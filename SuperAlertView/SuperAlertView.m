@@ -142,6 +142,9 @@ CGFloat const  textfiledHight=35;//单个 textfiled 的高度定义
     self=[super init];
     if (self) {
         [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(jianpanDown) name:UIKeyboardWillHideNotification object:nil];
+        //1注册通知
+        [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(KeyBoardUpDown:) name:UIKeyboardWillChangeFrameNotification object:nil];
+
        
         WS(ws);
         _bigView=[[UIView alloc]init];
@@ -298,5 +301,70 @@ CGFloat const  textfiledHight=35;//单个 textfiled 的高度定义
      self.superTxClick(btTag,txStrArr);
 
 }
+//2通知调用的方法
+-(void)KeyBoardUpDown:(NSNotification*)tongzhi
+{
+    //moveview为输入框所在的底试图
+    [self jianpandonghuaWithtongzhicanshu:tongzhi moveView:_bigView];
+}
+//键盘上升下落的方法
+-(CGRect)jianpandonghuaWithtongzhicanshu:(NSNotification*)tongzhi moveView:(UIView*)moveView
+//currSelf:(id)delegateSelf
+{
+    NSValue * frameRect=tongzhi.userInfo[UIKeyboardFrameEndUserInfoKey];
+    
+    CGRect rectFrame=[frameRect CGRectValue];
+    
+    float yanshi=[tongzhi.userInfo[ UIKeyboardAnimationDurationUserInfoKey] floatValue];
+    
+    
+    int donghuaquxian=[tongzhi.userInfo[UIKeyboardAnimationCurveUserInfoKey] intValue];
+    for(UITextField * textView in _bigView.subviews)
+    {
+        
+        if (textView.isEditing)
+        {
+            
+            
+            
+            CGFloat myheight=(_bigView.frame.origin.y+_bigView.frame.size.height)-rectFrame.origin.y;
+            CGRect  mysize=[UIScreen mainScreen].bounds;
+            
+            
+            if (myheight>0)
+            {
+                
+                
+                [UIView animateWithDuration:yanshi animations:^{
+                    
+                    [UIView setAnimationCurve:donghuaquxian];
+                    
+                    
+                    _bigView.frame=CGRectMake(_bigView.frame.origin.x, _bigView.frame.origin.y-20, _bigView.frame.size.width, _bigView.frame.size.height);
+                    
+                }];
+                
+                
+            }
+            if (rectFrame.origin.y==mysize.size.height)
+            {
+                
+                
+                [UIView animateWithDuration:yanshi animations:^{
+                    
+                    [UIView setAnimationCurve:donghuaquxian];
+                    
+                    
+                    _bigView.frame=CGRectMake(_bigView.frame.origin.x, _bigView.frame.origin.y+20, _bigView.frame.size.width, _bigView.frame.size.height);
+                    
+                }];
+            }
+            
+        }
+    }
+    
+    return rectFrame;
+}
+
 
 @end
