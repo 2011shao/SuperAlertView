@@ -22,8 +22,10 @@
     SuperAlert * alertview=[[SuperAlert alloc]initWithTitle:@"superAlert" message:@"填写账号密码" textfiled:@[@"请输入账号",@"请输入密码"] clickButtonTitle:@[@"取消",@"确定"] buttonClick:^(NSInteger btIndex, NSMutableArray *strArr) {
       NSLog(@"%ld,%@",(long)btIndex,strArr);
   } delegate:self];
-    
     [alertview shown];
+    
+    
+    
     
     //代理方法可以不适用 因为已经有 block 了 如果想使用代理方法了 可以使用 
     
